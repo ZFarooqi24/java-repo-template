@@ -11,40 +11,38 @@
   <dependencies>
     <!-- JUnit 5 dependencies -->
     <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
-        <version>5.7.0</version>
-        <scope>test</scope>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.7.0</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-engine</artifactId>
-        <version>5.7.0</version>
-        <scope>test</scope>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.7.0</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
   <build>
-      <plugins>
-          <!-- Checkstyle plugin -->
-          <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-checkstyle-plugin</artifactId>
-    <version>3.1.1</version>
-    <executions>
-        <execution>
+    <plugins>
+      <!-- Checkstyle plugin -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>3.1.1</version>
+        <executions>
+          <execution>
             <phase>validate</phase>
             <goals>
-                <goal>check</goal>
+              <goal>check</goal>
             </goals>
-        </execution>
-    </executions>
-    <configuration>
-        <configLocation>https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.29/src/main/resources/google_checks.xml</configLocation>
-    </configuration>
-</plugin>
-
+          </execution>
+        </executions>
+        <configuration>
+          <configLocation>https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.29/src/main/resources/google_checks.xml</configLocation>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
-  
 </project>
-
