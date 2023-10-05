@@ -28,22 +28,22 @@
       <plugins>
           <!-- Checkstyle plugin -->
           <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-checkstyle-plugin</artifactId>
-              <version>3.1.1</version>
-              <executions>
-                  <execution>
-                      <phase>validate</phase>
-                      <goals>
-                          <goal>check</goal>
-                      </goals>
-                  </execution>
-              </executions>
-              <configuration>
-                  <configLocation>checkstyle.xml</configLocation>
-              </configuration>
-          </plugin>
-      </plugins>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-checkstyle-plugin</artifactId>
+    <version>3.1.1</version>
+    <executions>
+        <execution>
+            <phase>validate</phase>
+            <goals>
+                <goal>check</goal>
+            </goals>
+        </execution>
+    </executions>
+    <configuration>
+        <configLocation>https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.29/src/main/resources/google_checks.xml</configLocation>
+    </configuration>
+</plugin>
+
   </build>
   
 </project>
