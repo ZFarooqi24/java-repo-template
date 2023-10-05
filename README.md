@@ -1,13 +1,13 @@
 # java-repo-template
-CS9223 - Java Repo Template - Team J
+## CS9223 - Java Repo Template - Team J
 
 This repository serves as a template for Java projects:
-JDK for the runtime environment
-JUnit for the testing framework
-GitHub Actions for the continuous integration solution 
-Checkstyle for the static analysis solution
-Google Java Format for the code formatting solution
-Maven for the package manager solution
+*JDK for the runtime environment
+*JUnit for the testing framework
+*GitHub Actions for the continuous integration solution 
+*Checkstyle for the static analysis solution
+*Google Java Format for the code formatting solution
+*Maven for the package manager solution
 
 ## Getting Started
 
