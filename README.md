@@ -16,6 +16,9 @@ This repository serves as a template for Java projects:
 - Build the project: `mvn package`
 - Run tests: `mvn test`
 
+## Successful Build
+![Test build in terminal](./images/Successful%20Build.png)
+
 ## GitHub Actions CI
 
 This template includes a GitHub Actions workflow that automatically runs tests on every push and pull request.
