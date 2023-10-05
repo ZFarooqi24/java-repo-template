@@ -27,7 +27,11 @@ This template includes a GitHub Actions workflow that automatically runs tests o
 
 The project is set up with Checkstyle for static code analysis. Configuration can be found in `checkstyle.xml`.
 
+## .gitignore
+
+Chose Java from the dropdown menu as it's specifically tailored for Java and will correctly ignore the relative files and directories for a Java project 
+
 ## License
 
-This project is licensed under the [MIT License](LICENSE). 
+This project is licensed under the [MIT License](LICENSE) as it allows for minimal restrictions in its usage
 
