@@ -25,7 +25,7 @@ This template includes a GitHub Actions workflow that automatically runs tests o
 
 ## Code Analysis
 
-The project is set up with Checkstyle for static code analysis. Configuration can be found in `checkstyle.xml`.
+The project is set up with Checkstyle for static code analysis. We use Google's Checkstyle configuration, which is directly fetched from Checkstyle's official GitHub repository.
 
 ## .gitignore
 
